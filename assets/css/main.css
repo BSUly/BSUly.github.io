@@ -1,0 +1,118 @@
+/* img {
+    max-width: 100%; 
+    height: auto;
+} */
+
+/* main rulez */
+body {
+    background-color: #FFF;
+    height: 3000px
+
+}
+.vegas-timer-progress {
+    display: none;
+}
+@font-face {
+    font-family: arimi;
+    src: url('../fonts/Amiri-Regular.ttf')
+}
+/* main rulez */
+
+/* header */
+
+.intro {
+    height: 500px
+}
+.intro .icona {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.header .nbar {
+	background-color:#095694;
+	color:#FFF;
+	overflow:hidden;
+    padding: 7px 7px 7px 7px;
+}
+.header .nbar img {
+	float:left;
+    height: 30px;
+    padding-left: 20px
+}
+.header .nbar h2 span {color:#009933}
+.header .nbar ul {
+	list-style:none;
+	overflow:hidden;
+	float:right;
+	padding-left:40px;
+	padding-right:100px;
+	margin:3px;
+}
+.header .nbar ul li {
+	float:left;
+	
+	padding-left:30px
+}
+.header .nbar ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+.header .nbar ul li a:hover {
+	color:#14211a;
+}
+/** End header */
+/* start body */
+.abouttheun {
+    color: #444;
+    text-align: center;
+    margin: 20px 50px auto;
+    font-family: arimi;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    border: 5px solid #095694;
+    border-radius: 30%;
+    line-height: 40px;
+    
+}
+.centers {
+    padding: 40px 0;
+    overflow: hidden
+}
+.centers .box {
+    width: 22%;
+    float: right;
+    text-align: center;
+    margin-left: 4%;
+}
+.centers .box:last-child {
+    margin-left: 0;
+}
+.centers .box i {
+    color: #095694;
+    border: 1px solid #095694;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    line-height: 120px
+}
+.centers .box h3,
+.centers .box p {
+    line-height: 2;
+    color: #444;
+    font-family: arimi;
+}
+.centers .box a {
+    color: #444;
+    text-decoration:none;
+}
+.centers .box a:hover {
+    color: #095694;
+}
+
+.colleges {
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* End body */
