@@ -26,7 +26,7 @@ $intro.vegas({
 	preload: true,
 	overlay: 'assets/img/relay.png',
 	transitionDuration: 4000,
-	delay: 10000,
+	delay: 3000,
 	slides: backgrounds
 });
 // $body.vegas({
