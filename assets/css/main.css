@@ -16,12 +16,25 @@ body {
     font-family: arimi;
     src: url('../fonts/Amiri-Regular.ttf')
 }
+.centerrize {
+    text-align: center;
+}
+.box {
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin-left: 5%;
+}
+.box:last-child {
+    margin-left: 0;
+}
 /* main rulez */
 
 /* header */
 
 .intro {
-    height: 500px
+    height: 500px;
+    background-size: cover;
 }
 .intro .icona {
     text-align: center;
@@ -39,7 +52,6 @@ body {
     height: 30px;
     padding-left: 20px
 }
-.header .nbar h2 span {color:#009933}
 .header .nbar ul {
 	list-style:none;
 	overflow:hidden;
@@ -109,10 +121,161 @@ body {
     color: #095694;
 }
 
+/* colleges */
 .colleges {
-    text-align: center;
-    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+/* .colleges .card img {
+    height: 300px;
+} */
+.colleges .card:hover {
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+.colleges .card {
+    font-family: arimi;
+}
+/* contact */
+.contacting {
+    width: 50%;
+    float: right;
+}
+.contact {
+    margin-top: 100px
+}
+#contact{
+    padding:10px 0 10px;
+  }
+.contact-form h2 {
+    text-align: center;
+    color: #444;
+    font-family: arimi;
+    padding-bottom: 5px;
+}
+  .contact-text{
+    margin:45px auto;
+  }
 
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
 
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #095694;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #095694;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+/* Generic Button Styles */
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#095694;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:#095694;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .form-btn:hover{
+    background:#023864;
+    color: white;
+    border:none;
+  }
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+center{
+  margin-top:330px;
+}
+input {
+    position: relative;
+    z-index: 9999;
+}
 /* End body */
